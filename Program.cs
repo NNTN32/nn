@@ -12,7 +12,9 @@ namespace Testgit
         {
             string ID = "Hello word!";
             Console.WriteLine(ID);
-
+            int maso = 0;
+            maso = int.Parse(Console.ReadLine());
+            Console.WriteLine(maso);
         }
     }
 }
